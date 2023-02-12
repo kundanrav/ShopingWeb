@@ -1,0 +1,283 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.row-head{
+  display:grid;
+  padding: 7px;
+  text-align: center;
+  grid-template-columns: auto auto;
+  background-color: #efeff1;
+
+  
+}
+
+.main-navbar{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.logo-section{
+  display:grid;
+  padding: 30px;
+  text-align: center;
+  grid-template-columns: auto auto;
+  background-color:rgb(253, 253, 253);
+}
+.logo-section div strong{
+  font-size: 155%;
+  color: gray;
+}
+
+.navbar{
+  display:inline-grid;
+  padding: 7px;
+ text-align: center;
+  grid-template-columns:auto;
+  background-color: white;
+  
+  width: 100%;
+}
+nav ul{
+  list-style: none;
+
+}
+nav ul li{
+  display: inline;
+  padding: 1.9rem;
+}
+
+.container{
+  padding: 0%;
+  margin: 0px;
+}
+
+.banner-heading{
+  column-gap: 15rem;
+  display:grid;
+  padding: 20px;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  background-color: #efeff1;
+  flex-wrap: wrap;
+
+}
+
+@media only screen and (max-width:1110px) {
+  .banner-heading{
+    grid-template-columns: auto;
+  }
+}
+
+div .row1{
+  display:grid;
+  width: 93%;
+  column-gap: 20px;
+  text-align: center;
+  grid-template-columns: auto auto;
+ 
+}
+
+div .row2{
+  display:grid;
+  width: 93%;
+  grid-template-columns: auto;
+
+}
+
+.row2 button{
+  background: orange;
+    margin-top: 1rem;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+.row2 textarea{
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 2rem;
+  border: 1px solid gray;
+  color: #5e5151;
+  background: #efeff1;
+  
+}
+.row1 input{
+  width: 85%;
+  margin-top: 10px;
+  border: 1px solid gray;
+  color: #5e5151;
+  background: #efeff1;
+  border-radius: 14px;
+  padding: 8px;
+}
+
+nav ul li button,.banner-heading div button{
+  background: orange;
+  margin-top: 1rem;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+nav ul li button:hover, nav ul li button:focus{
+  background-color: rgb(136, 78, 8);
+}
+
+
+/* third section  */
+.third-section{
+  column-gap: 20rem;
+  display: grid;
+  padding: 8px;
+  color: white;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  background-color: #19c7d9;
+}
+@media only screen and (max-width:1110px) {
+  .third-section{
+    grid-template-columns: auto;
+  }
+}
+.third-section div button{
+  color: #03c7d8;
+  margin-top: 3rem;
+  border: 1px;
+  border-radius: 7px;
+  background-color: white;
+  padding: 12px;
+  width: 12rem;
+  font-weight: bold;
+
+}
+
+
+.forth-section{
+  column-gap: 1rem;
+  display: grid;
+  padding: 39px;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  background: #efeff1;
+}
+@media only screen and (max-width:1110px) {
+  .forth-section{
+    grid-template-columns: auto;
+  }
+}
+
+
+.forth-section div button{
+  color: #ffffff;
+  margin-top: 1rem;
+  border: 1px;
+  /* border-radius: 7px; */
+  background-color: #eb951e;
+  padding: 12px;
+  width: 12rem;
+  font-weight: bold;
+
+}
+.play-button{
+  position: absolute;
+  background: #2eeeffc4;
+  padding: 3%;
+  color: white;
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 17%;
+}
+
+.fifth-section{
+    column-gap: 1rem;
+    display: grid;
+    padding: 39px;
+    justify-content: center;
+    grid-template-columns: auto auto  auto;
+    background: white;
+  }
+  @media only screen and (max-width:1110px) {
+    .fifth-section{
+      grid-template-columns: auto auto;
+    }
+    .play-button{
+      margin-top: 10%;
+      margin-left: 34%;
+    }
+  }
+  @media only screen and (max-width:600px) {
+    .fifth-section{
+      grid-template-columns: auto ;
+    }
+    .play-button{
+      margin-top: 10%;
+      margin-left: 34%;
+    }
+  }
+
+
+
+.learnmore-button button{
+  color: #ffffff;
+  margin-top: 1rem;
+  border: 1px;
+  background-color: #ffa62a;
+  padding: 12px;
+  width: 12rem;
+  font-weight: bold;
+}
+.learnmore-button{
+  text-align: center;
+}
+
+.footer-main{
+  display: grid;
+  padding: 5px;
+  gap: px;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: gray;
+  color: white;
+  margin-top: 5px;
+
+}
+.footer-main div ul li{
+  list-style: none;
+}
+.copyright{
+  background-color: #412a2a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width:1210px) {
+  .footer-main{
+    grid-template-columns: auto auto auto auto auto ;
+
+  }
+}
+@media only screen and (max-width:1110px) {
+  .footer-main{
+    grid-template-columns: auto auto auto auto  ;
+
+  }
+}
+@media only screen and (max-width:1010px) {
+  .footer-main{
+    grid-template-columns: auto auto auto  ;
+
+  }
+}
+@media only screen and (max-width:700px) {
+  .footer-main{
+    grid-template-columns: auto auto   ;
+
+  }
+}
